@@ -1,0 +1,17 @@
+tempdummy
+50
+1.0
+0.0
+1
+blocksdummy
+stepsdummy
+restartdummy
+
+  ReadInput >> temp;
+  ReadInput >> nspin;
+  ReadInput >> J;
+  ReadInput >> h;
+  ReadInput >> metro;       //if 1 -> use metropolis sampling else use Gibbs sampling
+  ReadInput >> nblk;
+  ReadInput >> nstep;       //steps per block
+  ReadInput >> restart;     //if 0 -> start new MC simulation, if 1 -> restart
